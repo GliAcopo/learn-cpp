@@ -4,7 +4,8 @@ This program will allow you to play RPSLS against the computer.
 
 #include <iostream>
 #include <cstdlib>
-
+#include <ctime>
+// I noticed that "time" at position 11 gave an error because it "was not declared", I saw and tested that "ctime" solves the problem
 int main() {
 
   srand(time(NULL));
