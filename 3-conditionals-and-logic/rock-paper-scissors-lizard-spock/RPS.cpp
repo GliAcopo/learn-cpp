@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstdlib>
+#include <ctime>
+// I noticed that "time" at position 7 gave an error because "time is not defined", I saw and tested that including "ctime" solves the problem
 
 int main() {
 
